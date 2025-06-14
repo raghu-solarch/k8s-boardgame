@@ -4,7 +4,7 @@ metadata:
   name: boardgame-deployment
 spec:
   selector: 
-    matchLabels:
+    matchLabels: 
       app: boardgame  
   replicas: 2 # Number of replicas that will be created for this deployment
   template:
