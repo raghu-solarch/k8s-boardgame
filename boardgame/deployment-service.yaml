@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: boardgame
-    spec:
+    spec: 
       containers:
         - name: boardgame
           image: vijesh89/boardgame:39 # Image that will be used to containers in the cluster
